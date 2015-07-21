@@ -87,20 +87,20 @@
             <div class="intro-text">
                 <div class="intro-lead-in"> An Open Source Project to Bridge the Education Divide</div>
                 <div class="intro-heading">Kolibri</div>
-                <div class="fold-bg animated bounceInDown">
+                <div class="fold-bg animated fadeInUp">
                     <img src="img/cover/bridge.svg">
                 </div>
                 <div class="row intro-graphic">
                     <div class="col-md-4 ">
-                           <div class="fold-left animated fadeInLeftBig">
-                                <img src="img/cover/city.svg">
+                           <div class="fold-left animated fadeInRightBig">
+                                <img class="city" src="img/cover/city.svg">
                             </div>
                             <div class="fold-left-addon animated flipInY">
                                 <img src="img/cover/cloud.svg">
                             </div> 
                     </div>  
                     <div class="col-md-4">
-                            <div class="fold-mid-center animated fadeInLeft">
+                            <div class="fold-mid-center animated bounceInDown">
                                 <img src="img/cover/tablet.svg">
                             </div>
                             <div class="fold-mid-center-addon animated bounceIn">
@@ -110,12 +110,12 @@
                     </div>
                     <div class="col-md-4">
                             <div class="fold-right animated fadeInRightBig">
-                                <img src="img/cover/village.svg">
+                                <img class="village" src="img/cover/village.svg">
                             </div>
                     </div>
                 </div>
                
-                <div class="action-button animated pulse"><a href="#contact" class="page-scroll btn btn-xl">Join the Cause</a></div>
+                <div class="action-button animated fadeInUp"><a href="#contact" class="page-scroll btn btn-xl">Join the Cause</a></div>
             </div>
         </div>
 
@@ -448,8 +448,8 @@ ARE DISCONNECTED</h4>
                             <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
                             <style type="text/css">
                                 #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; color:grey;}
-                                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                                Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. 
                             </style>
                             <div id="mc_embed_signup">
                                 <form action="//learningequality.us6.list-manage.com/subscribe/post?u=023b9af05922dfc7f47a4fffb&amp;id=2cff471b25" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -473,7 +473,7 @@ ARE DISCONNECTED</h4>
                                 </form>
                             </div>
                             <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                            <!--End mc_embed_signup-->
+                            <!--End mc_embed_signup--> */
                         </div>
                     </form>
                 </div>
@@ -700,6 +700,9 @@ ARE DISCONNECTED</h4>
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
+       /* $(".action-button").fadeIn(5000, function(){
+            $('.village').css("background-color", "red");
+        });*/
     </script>
 
 </body>

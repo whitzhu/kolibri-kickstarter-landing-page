@@ -228,48 +228,81 @@ fieldset[disabled] .btn-xl.active {
 }
 
 /* Header Animation */
+
 /***** LEFT SECTION ******/
+
 /*City Add on*/ 
 header .fold-left-addon{
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-duration: 1.5s;
+  moz-animation-delay: 1.5s;
+}
+
+/*City*/
+header .fold-left{
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: .5s;
   -moz-animation-duration: 1s;
-  -moz-animation-delay: 1s;
+  -moz-animation-delay: .5s;
   animation-duration: 1s;
-  moz-animation-delay: 1s;
+  animation-delay: .5s;
 }
 
 
 /***** MIDDLE SECTION ******/
+
 /*Bridge*/ 
 header .fold-bg {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3s;
-  -moz-animation-duration: 1s;
-  -moz-animation-delay: 3s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 5.8s;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 5.8s;
+  animation-duration: 2s;
+  animation-delay: 5.8s;
   }
+
+/*Village*/
+header .fold-right{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 2.5s;
+  animation-duration: 1s;
+  animation-delay: 2.5s;
+
+}
+
 /*Device*/ 
 header .fold-mid-center{
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 4s;
   -moz-animation-duration: 2s;
   -moz-animation-delay: 4s;
-  }
+  animation-duration: 2s;
+  animation-delay: 4s;
+}
+
 /*Device Add on*/ 
 header .fold-mid-center-addon{
   -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 6s;
-  -moz-animation-duration: 4s;
-  -moz-animation-delay: 6s;
-  transition: opacity 5s ease-in;
-  }
-  /*Button*/
-  header .action-button{
-  -webkit-animation-duration: 1.5s;
   -webkit-animation-delay: 7s;
-  -moz-animation-duration: 1.5s;
+  -moz-animation-duration: 4s;
   -moz-animation-delay: 7s;
-  }
+  animation-duration: 4s;
+  animation-delay: 7s;
+}
+/*Button*/
+header .action-button{
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 7.5s;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-delay: 7.5s;
+  animation-duration: 1.5s;
+  animation-delay: 7.5s;
+}
 
 /* Media Query */
 @media (min-width: 768px) {
@@ -364,14 +397,14 @@ header .intro-text .intro-heading {
     top: 15%;
   }
   header .row{
-    margin-top:9%;
+    margin-top:10%;
   }
   /*Bridge*/
   header .fold-bg img{
   position: absolute;
-  margin-left: -29.6%;
-  padding-top: 23.9%;
-  width: 60%;
+  margin-left: -28.73%;
+  padding-top: 24.6%;
+  width: 58%;
   z-index: 0;
   }
 
