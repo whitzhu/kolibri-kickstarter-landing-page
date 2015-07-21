@@ -16,6 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -85,9 +87,38 @@
             <div class="intro-text">
                 <div class="intro-lead-in"> An Open Source Project to Bridge the Education Divide</div>
                 <div class="intro-heading">Kolibri</div>
-                <div class="action-button"><a href="#contact" class="page-scroll btn btn-xl">Join the Cause</a></div>
+                <div class="fold-bg animated bounceInDown">
+                    <img src="img/cover/bridge.svg">
+                </div>
+                <div class="row intro-graphic">
+                    <div class="col-md-4 ">
+                           <div class="fold-left animated fadeInLeftBig">
+                                <img src="img/cover/city.svg">
+                            </div>
+                            <div class="fold-left-addon animated flipInY">
+                                <img src="img/cover/cloud.svg">
+                            </div> 
+                    </div>  
+                    <div class="col-md-4">
+                            <div class="fold-mid-center animated fadeInLeft">
+                                <img src="img/cover/tablet.svg">
+                            </div>
+                            <div class="fold-mid-center-addon animated bounceIn">
+                                <img src="img/cover/cloud_tablet.svg">
+                            </div>
+                            
+                    </div>
+                    <div class="col-md-4">
+                            <div class="fold-right animated fadeInRightBig">
+                                <img src="img/cover/village.svg">
+                            </div>
+                    </div>
+                </div>
+               
+                <div class="action-button animated pulse"><a href="#contact" class="page-scroll btn btn-xl">Join the Cause</a></div>
             </div>
         </div>
+
     </header>
 
     <!-- Services Section -->
@@ -661,10 +692,15 @@ ARE DISCONNECTED</h4>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <!-- WOW Scrolling JavaScript -->
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 
