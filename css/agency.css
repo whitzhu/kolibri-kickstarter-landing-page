@@ -3,7 +3,9 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: grey;
+  font-size: 1.4em;
+  line-height: 1.2;
 }
 .text-primary {
   color: #fed136;
@@ -18,7 +20,7 @@ p.large {
 a,
 a:hover,
 a:focus,
-a:active,
+a:active,d
 a.active {
   outline: none;
 }
@@ -469,9 +471,23 @@ header .intro-text .intro-heading {
   }
 }
 
-
+#timelinesection {
+  background-color: #fed136;
+  font-family: "Roboto Slab","Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+#timelinesection .timeline-heading .h4{
+  color:#fff;
+}
+#timelinesection .text-muted{
+  font-size: 1.3em;
+  color: #5F6062;
+  line-height: 1.2;
+}
+#timelinesection .timelinebutton{
+  cursor:pointer;
+}
+
 section {
   padding: 100px 0;
 }
@@ -649,7 +665,7 @@ section h3.section-subheading {
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: inherit;
+  color: #fff;
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
