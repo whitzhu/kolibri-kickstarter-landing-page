@@ -116,22 +116,30 @@ fieldset[disabled] .btn-primary.active {
   max-width: 800px;
 }
 .email_input {
-  float: left;
-  width: 62%;
+   float: left;
+  width: 42%;
   background-color: white;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*text-transform: uppercase;*/
+  /* text-transform: uppercase; */
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 5px;
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 20px;
   margin-right: 5%;
-  margin-left: 3%;
+  margin-left: 12%;
+  margin-top: 4%;
 }
 .email_submit {
   float: left;
   width: 27%;
+  padding: 10px;
   margin-right: 3%;
+  margin-top: 4%;
+}
+
+.actionmodalclose{
+  margin-top: 2%;
+  margin-left: 85%;
 }
 .mailing_label{
   text-align: center;
@@ -253,7 +261,6 @@ header .fold-left{
 
 
 /***** MIDDLE SECTION ******/
-
 /*Bridge*/ 
 header .fold-bg {
   -webkit-animation-duration: 2s;
@@ -351,7 +358,7 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -374,7 +381,7 @@ header .intro-text .intro-heading {
    
   }
   header .intro-text .intro-lead-in {
-    font-family: "Helvetica Neue","Droid Serif", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-size: 25px;
     line-height: 40px;
@@ -382,7 +389,7 @@ header .intro-text .intro-heading {
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: 25%;
+    top: 28%;
 	}
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -460,6 +467,10 @@ header .intro-text .intro-heading {
     margin: 0 auto;
     top: 85%;
   }
+}
+
+
+
 }
 section {
   padding: 100px 0;
@@ -838,6 +849,11 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+
+.modal-body-text{
+  margin-top:2%;
+}
+
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -848,6 +864,25 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
 }
+.action-modal .modal-content-small {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 60%;
+  margin: auto;
+  border: none;
+  min-height: 50%;
+  margin-top: 100px;
+  background-color: #C0D72F;
+  text-align: center;
+}
+.action-modal .modal-content-small .btn-primary{
+  background-color: grey;
+  border: 0;
+  opacity: 0.3;
+}
+
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
@@ -867,6 +902,17 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+}
+
+
+.action-modal .close-modal-small {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 30%;
+  right: 20%;
+  cursor: pointer;
 }
 .portfolio-modal .close-modal {
   position: absolute;

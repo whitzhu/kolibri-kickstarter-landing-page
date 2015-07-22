@@ -16,7 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet"> 
     <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -25,6 +25,7 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -91,7 +92,7 @@
                     <img src="img/cover/bridge.svg">
                 </div>
                 <div class="row intro-graphic">
-                    <div class="col-md-4 ">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
                            <div class="fold-left animated fadeInRightBig">
                                 <img class="city" src="img/cover/city.svg">
                             </div>
@@ -99,7 +100,7 @@
                                 <img src="img/cover/cloud.svg">
                             </div> 
                     </div>  
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="fold-mid-center animated bounceInDown">
                                 <img src="img/cover/tablet.svg">
                             </div>
@@ -108,14 +109,14 @@
                             </div>
                             
                     </div>
-                    <div class="col-md-4">
+                    <div class="ccol-md-4 col-sm-4 col-xs-6">
                             <div class="fold-right animated fadeInRightBig">
                                 <img class="village" src="img/cover/village.svg">
                             </div>
                     </div>
                 </div>
                
-                <div class="action-button animated fadeInUp"><a href="#contact" class="page-scroll btn btn-xl">Join the Cause</a></div>
+                <div class="action-button animated fadeInUp"><a href="#contact" class="btn btn-xl" data-toggle="modal" data-target="#calltoaction">Join the Cause</a></div>
             </div>
         </div>
 
@@ -448,8 +449,6 @@ ARE DISCONNECTED</h4>
                             <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
                             <style type="text/css">
                                 #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; color:grey;}
-                                Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. 
                             </style>
                             <div id="mc_embed_signup">
                                 <form action="//learningequality.us6.list-manage.com/subscribe/post?u=023b9af05922dfc7f47a4fffb&amp;id=2cff471b25" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -473,7 +472,7 @@ ARE DISCONNECTED</h4>
                                 </form>
                             </div>
                             <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                            <!--End mc_embed_signup--> */
+                            <!--End mc_embed_signup--> 
                         </div>
                     </form>
                 </div>
@@ -509,6 +508,55 @@ ARE DISCONNECTED</h4>
         </div>
     </footer>
 
+    <!-- Call to Action Modal -->
+    <div class="action-modal modal fade" id="calltoaction" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content-small">
+           <button type="button" class="btn btn-primary actionmodalclose" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <div class="container">
+             
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="modal-body-text">Be Part of our Journey</h2>
+                            <h5>Join our newsletter to get the latest updates</h5>
+                                <!-- Begin MailChimp Signup Form -->
+                            <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+                            <style type="text/css">
+                                #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; color:grey;}
+                            </style>
+                            <div id="mc_embed_signup">
+                                <form action="//learningequality.us6.list-manage.com/subscribe/post?u=023b9af05922dfc7f47a4fffb&amp;id=2cff471b25" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div class="form-group">
+                                        <div id="mc_embed_signup_scroll">
+                                            <br>
+                                            <div class="e1">
+                                                <div class="e2">
+                                                    <input type="email" value="" name="EMAIL" class="required email email_input" id="mce-EMAIL" placeholder="Email Address">
+                                                    <input type="submit" value="Join the Cause" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl email_submit">
+                                                </div>
+                                            </div>
+                                            <div id="mce-responses" class="clear">
+                                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                                <div class="response" id="mce-success-response" style="display:none"></div>
+                                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_023b9af05922dfc7f47a4fffb_2cff471b25" tabindex="-1" value=""></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                            <!--End mc_embed_signup--> 
+                            <br>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
@@ -537,7 +585,7 @@ ARE DISCONNECTED</h4>
                                 <li>Client: Round Icons</li>
                                 <li>Category: Graphic Design</li>
                             </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <button type="button" class="btn btn-primary " data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
